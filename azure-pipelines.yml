@@ -22,7 +22,7 @@ steps:
   inputs:
     action: 'deploy'
     connectionType: 'azureResourceManager'
-    azureSubscriptionConnection: 'Hermas Amaewhule DevOps(8ab233ac-c619-4888-bf7a-422ea867b8d8)'
+    azureSubscriptionConnection: 'Hermas Amaewhule DevOps(1)(8ab233ac-c619-4888-bf7a-422ea867b8d8)'
     azureResourceGroup: 'networking-rg'
     kubernetesCluster: 'terraform-aks-cluster'
     manifests: 'application-manifest.yaml'
