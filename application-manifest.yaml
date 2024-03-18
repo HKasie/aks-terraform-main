@@ -15,8 +15,8 @@ spec:
       containers:
         - name:
           image:<whule>/flask-app:v1
-          ports: 5000
-            - containerPort:
+          ports: 
+          - containerPort: 5000
   strategy:
     type: RollingUpdate
     rollingUpdate:
