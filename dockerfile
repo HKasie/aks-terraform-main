@@ -2,10 +2,10 @@ git # TODO: Step 1 - Use an official Python runtime as a parent image. You can u
 FROM python:3.8-slim-buster
 
 # TODO: Step 2 - Set the working directory in the container
-WORKDIR /app
+WORKDIR /home/app
 
 # TODO: Step 3 Copy the application files in the container
-COPY . .
+COPY . /home/app
 
 # Install system dependencies and ODBC driver
 RUN apt-get update && apt-get install -y \
