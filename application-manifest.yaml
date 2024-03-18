@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: whule/flask-app:v1
+          image: whule/flask-app:latest
           ports: 
           - containerPort: 5000
   strategy:
