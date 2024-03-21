@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from sqlalchemy import create_engine, Column, Integer, String, DateTime
+from azure.identity import ManagedIdentityCredential
+from azure.keyvault.secrets import SecretClient
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
@@ -10,10 +12,11 @@ import os
 app = Flask(__name__)
 
 # database connection
-server = 'devops-project-server.database.windows.net'
-database = 'orders-db'
-username = 'maya'
-password = 'AiCore1237'
+key_vault_url = https://hermas-keys.vault.azure.net/
+credential = ManagedIdentityCredential()
+secret_client = SecretClient(vault_url=key_vault_url, credential=credential)
+secret = secret_client.get_secret(Secrets)
+secret_value = secret.value
 driver= '{ODBC Driver 18 for SQL Server}'
 
 # Create the connection string
