@@ -11,3 +11,5 @@
 ### Next, the application was containerized creating a docker image. The process for creating the docker image entailed the following [steps #2](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Documentation%20-%20Docker-containerisation%20.pdf)
 
 ### To deploy the containerized application the network services have to be defined and provisioned or setup in Azure using Terraform's infrastructure as code (IaC) to ensure the cluster’s seamless operations and secure communication. Took the following [steps#3](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Documentation%20-%20Defining%20network%20services%20with%20IaC.pdf) 
+
+### Implemented the necessary resources using infrastructure as code (IaC) for automating the provisioning of an AKS cluster using these [steps#4](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Documentation-%20Defining%20an%20AKS%20cluster%20with%20IaC.pdf).
