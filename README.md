@@ -9,3 +9,5 @@
 ### Version control process was embarked by following these [steps #1](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Documentation%20-%20version%20control.pdf)
 
 ### Next, the application was containerized creating a docker image. The process for creating the docker image entailed the following [steps #2](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Documentation%20-%20Docker-containerisation%20.pdf)
+
+### To deploy the containerized application the network services have to be defined and provisioned or setup in Azure to ensure the cluster’s seamless operations and secure communication. Took the following steps#3 
