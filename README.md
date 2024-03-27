@@ -3,4 +3,4 @@
 
 
 # Project Delivery Process:
-## Version control process was embarked by following these [steps] (https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Documentation%20-%20version%20control.pdf)
+## Version control process was embarked by following these [steps](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Documentation%20-%20version%20control.pdf)
