@@ -16,4 +16,4 @@
 
 ### Completed the provisioning of the AKS cluster using both the network and aks-cluster modules that were created above by initializing and applying the Terraform project using IaC. Details in [steps#5](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Documentation-%20Creating%20an%20AKS%20cluster%20with%20IaC.pdf) 
 
-### Deployment of the containerized application to the Kubernetes cluster that’s been created. To achieve this, the essential Kubernetes manifest must be created and provisioned using these [steps#6](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Document%20-%20Kubernetes%20Deployment%20to%20AKS.pdf)
+### Deployed the containerized application to the Kubernetes cluster that has been created. To achieve this, the essential Kubernetes manifest was created and provisioned using these [steps#6](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Document%20-%20Kubernetes%20Deployment%20to%20AKS.pdf)
