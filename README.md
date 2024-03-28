@@ -19,3 +19,5 @@
 ### Deployed the containerized application to the Kubernetes cluster that has been created. To achieve this, the essential Kubernetes manifest was created and provisioned using these [steps#6](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Document%20-%20Kubernetes%20Deployment%20to%20AKS.pdf)
 
 ### Configured a Continuous Integration/Continuous Deployment (CI/CD) pipeline using Azure DevOps to automate the deployment of the application. The pipeline automates the containerization and deployment process, such that every time a new feature is added to the application, it triggers the automatic build of an updated Docker image, its release to Docker Hub, and the deployment of the updated containers to the Kubernetes cluster. Performed the configurations with these [steps#7](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Document%20-%20CI_CD%20pipeline%20with%20Azure%20DevOps.pdf)
+
+### Enabled Container Insights for the AKS cluster to collect real-time in-depth performance and diagnostic data for the efficient monitoring of the application performance and troubleshooting of issues. Took the following [steps#8]
