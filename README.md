@@ -22,4 +22,4 @@
 
 ### Enabled Container Insights for the AKS cluster to collect real-time in-depth performance and diagnostic data for the efficient monitoring of the application performance and troubleshooting of issues. Took the following [steps#8](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Document-%20AKS%20cluster%20monitoring.pdf)
 
-### Lastly, integrated AKS cluster with Azure key vault for secrets management by implementing a solution to securely store and retrieve the database credentials for the company’s application to establish a connection to the Azure SQL database and extract client order information. Followed these steps#9 for the implementation.
+### Lastly, integrated AKS cluster with Azure key vault for secrets management by implementing a solution to securely store and retrieve the database credentials for the company’s application to establish a connection to the Azure SQL database and extract client order information. Followed these [steps#9](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Document-%20AKS%20integration%20with%20Azure%20key%20vault%20for%20secrets%20management.pdf) for the implementation.
