@@ -17,3 +17,5 @@
 ### Completed the provisioning of the AKS cluster using both the network and aks-cluster modules that were created above by initializing and applying the Terraform project using IaC. Details in [steps#5](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Documentation-%20Creating%20an%20AKS%20cluster%20with%20IaC.pdf) 
 
 ### Deployed the containerized application to the Kubernetes cluster that has been created. To achieve this, the essential Kubernetes manifest was created and provisioned using these [steps#6](https://github.com/HKasie/aks-terraform-main/blob/main/Documentation/Document%20-%20Kubernetes%20Deployment%20to%20AKS.pdf)
+
+### Configured a Continuous Integration/Continuous Deployment (CI/CD) pipeline using Azure DevOps to automate the deployment of the application. The pipeline automates the containerization and deployment process, such that every time a new feature is added to the application, it triggers the automatic build of an updated Docker image, its release to Docker Hub, and the deployment of the updated containers to the Kubernetes cluster. Performed the configurations with these [steps#7]
